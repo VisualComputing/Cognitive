@@ -322,7 +322,7 @@ H:
 
 ### Mach's band
 
-<img height="450" src="fig/Mach_bands.gif">
+<img height="400" src="fig/Mach_bands.gif">
 
 V:
 
@@ -331,7 +331,7 @@ V:
 ### Grid illusions
 
 <figure>
-    <img height='400' src='fig/HermannGrid.gif' />
+    <img height='380' src='fig/HermannGrid.gif' />
     <figcaption> Hermann grid </figcaption>
 </figure>
 
@@ -342,7 +342,7 @@ V:
 ### Grid illusions
 
 <figure>
-    <img height='400' src='fig/scintillaGrid.png' />
+    <img height='380' src='fig/scintillaGrid.png' />
     <figcaption>Scintillating grid</figcaption>
 </figure>
 
