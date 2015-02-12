@@ -331,7 +331,7 @@ V:
 ### Grid illusions
 
 <figure>
-    <img height='380' src='fig/HermannGrid.gif' />
+    <img height='375' src='fig/HermannGrid.gif' />
     <figcaption> Hermann grid </figcaption>
 </figure>
 
@@ -342,7 +342,7 @@ V:
 ### Grid illusions
 
 <figure>
-    <img height='380' src='fig/scintillaGrid.png' />
+    <img height='375' src='fig/scintillaGrid.png' />
     <figcaption>Scintillating grid</figcaption>
 </figure>
 
