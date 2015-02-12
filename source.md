@@ -30,30 +30,9 @@ H:
 
 H:
 
-## PIPELINE
+## History of Linear Perspective
 
-<a href ="http://processing.org/tutorials/pshader/">
-Shaders
-</a>
-In Processing
-```
-uniform mat4 transform;
-attribute vec4 vertex;
-attribute vec4 color;
-varying vec4 vertColor;
-
-void main(){
-   gl_Position = transform * vertex;
-   vertColor = color;
-}
-```
-```
-varying vec4 vertColor;
-
-void main(){
-  gl_FragColor = vertColor;
-}
-```
+<video data-autoplay src="https://www.youtube.com/watch?v=bkNMM8uiMww"></video>
 
 V:
 
