@@ -14,5 +14,56 @@ Made possible thanks to...
  $ git clone https://github.com/VisualComputing/Cognitive.git
  $ git checkout gh-pages
  ```
- 
-Then have a look at the README.md of the gh-pages branch.
+
+## Folder Structure
+
+    |-- css/
+    |-- js/
+    |-- plugin/
+    |-- lib/
+    |-- fig/
+    |-- source.md
+    
+Refer to the [reveal folder structure](https://github.com/hakimel/reveal.js#folder-structure) for more details, and to the *Setup* below.
+
+## Setup
+
+External markdown and speaker notes, require that presentations run from a local web server. The following instructions will set up such a server as well as all of the development tasks needed to make edits to the slides source code.
+
+1. Install [Node.js](http://nodejs.org/)
+
+2. Install [Grunt](http://gruntjs.com/getting-started#installing-the-cli)
+
+3. Navigate to the presentation folder
+
+ ```sh
+ $ cd Cognitive
+ ```
+
+5. Install dependencies
+
+ ```sh
+ $ npm install
+ ```
+
+6. Edit the presentation contents using markdown in the `source.md` and adding figures as needed to the `fig/` folder.
+
+7. Serve the presentation and monitor source files for changes
+
+ ```sh
+ $ grunt serve
+ ```
+
+8. Open <http://localhost:8000> to view your presentation
+
+ You can change the port by using `grunt serve --port 8001`.
+
+<!---
+
+9. Update to upstream
+
+ ```sh
+ $ git remote add reveal.js https://github.com/hakimel/reveal.js.git
+ $ git pull reveal.js master
+ ```
+-->
