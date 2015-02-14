@@ -48,7 +48,7 @@ External markdown and speaker notes, require that presentations run from a local
  $ npm install
  ```
 
-6. Edit the presentation contents using markdown in the `source.md`, adding figures to the `fig/` folder and [p5.js skectches](http://p5js.org/) to the `skectches/` folder (detailed instructions below) as needed.
+6. Edit the presentation contents using [markdown](http://daringfireball.net/projects/markdown/) in the `source.md`, adding figures to the `fig/` folder and [p5.js skectches](http://p5js.org/) to the `skectches/` folder (detailed instructions below) as needed.
 
 7. Serve the presentation and monitor source files for changes
 
