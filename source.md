@@ -370,6 +370,17 @@ V:
 
 ## Optical Illusions (Cognitive)
 
+### Ambiguous illusions
+
+<figure>
+    <img height='400' src='fig/Swans_reflecting_elephants.jpg' />
+    <figcaption>[Swans Reflecting Elephants](http://en.wikipedia.org/wiki/Swans_Reflecting_Elephants) by [Salvador Dalí](http://en.wikipedia.org/wiki/Salvador_Dal%C3%AD), 1937</figcaption>
+</figure>
+
+V:
+
+## Optical Illusions (Cognitive)
+
 ### Geometrical-optical illusions
 
 <figure>
