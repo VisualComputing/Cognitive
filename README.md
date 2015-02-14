@@ -82,7 +82,7 @@ External markdown and speaker notes, require that presentations run from a local
 
  ```javascript
  function setup() {
-   var myCanvas = createCanvas(400, 400);
+    var myCanvas = createCanvas(400, 400);
     myCanvas.parent('mysketch_id');
  }
  ```
