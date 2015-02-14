@@ -23,6 +23,7 @@ Made possible thanks to...
     |-- lib/
     |-- fig/
     |-- sketches/
+    |-- index.html
     |-- source.md
     
 Refer to the [reveal folder structure](https://github.com/hakimel/reveal.js#folder-structure) for more details, and to the *Setup* below.
@@ -47,7 +48,7 @@ External markdown and speaker notes, require that presentations run from a local
  $ npm install
  ```
 
-6. Edit the presentation contents using markdown in the `source.md` and adding figures as needed to the `fig/` folder.
+6. Edit the presentation contents using markdown in the `source.md`, adding figures to the `fig/` folder and [p5.js skectches](http://p5js.org/) to the `skectches/` folder as needed.
 
 7. Serve the presentation and monitor source files for changes
 
