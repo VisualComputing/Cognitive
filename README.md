@@ -22,6 +22,7 @@ Made possible thanks to...
     |-- plugin/
     |-- lib/
     |-- fig/
+    |-- sketches/
     |-- source.md
     
 Refer to the [reveal folder structure](https://github.com/hakimel/reveal.js#folder-structure) for more details, and to the *Setup* below.
@@ -67,3 +68,25 @@ External markdown and speaker notes, require that presentations run from a local
  $ git pull reveal.js master
  ```
 -->
+
+## [p5.js](http://p5js.org/) sketches
+
+1. Create your js sketch in the ```sketches``` folder, e.g.,
+
+
+ ```sh
+ $ touch sketches/mysketch.js
+ ```
+ 
+2. Define a canvas id for your sketch (```mysketch_id```):
+
+ ```javascript
+ function setup() {
+   var myCanvas = createCanvas(400, 400);
+   myCanvas.parent('mysketch_id');
+ }
+ ```
+
+3. Add your sketch as a script in the ```index.html```, e.g., ```<script src="sketches/mysketch.js"></script>```
+
+4. Add your sketch in the ```source.md``` at the place you want it to be, using the _id: defined in *2*, e.g., ```<div id='mysketch_id'></div>```
