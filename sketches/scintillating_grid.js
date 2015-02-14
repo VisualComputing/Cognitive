@@ -34,7 +34,7 @@ function draw() {
     
     // Circles
     ellipseMode(CENTER);
-    stroke(256, 256, 256);  // white circles
+    stroke(255, 255, 255);  // white circles
     for (var i = step; i < width -5; i = i + step) {
         for (var j = step; j < height -15; j = j + step) {
             strokeWeight(6); 
