@@ -8,7 +8,7 @@ Made possible thanks to...
 
 <!--- a long list of students and links to their pages. To come ;) -->
 
-## Setup
+## Installation
 
  ```sh
  $ git clone https://github.com/VisualComputing/Cognitive.git
