@@ -78,7 +78,7 @@ External markdown and speaker notes, require that presentations run from a local
  $ touch sketches/mysketch.js
  ```
  
-2. Define a canvas id for your sketch (```mysketch_id```):
+2. Define a canvas _id_ for your sketch (```mysketch_id```):
 
  ```javascript
  function setup() {
@@ -87,6 +87,6 @@ External markdown and speaker notes, require that presentations run from a local
  }
  ```
 
-3. Add your sketch as a script in the ```index.html```, e.g., ```<script src="sketches/mysketch.js"></script>```
+3. Inlcude your sketch as a script in the ```index.html```, e.g., ```<script src="sketches/mysketch.js"></script>```
 
-4. Add your sketch in the ```source.md``` at the place you want it to be, using the _id: defined in *2*, e.g., ```<div id='mysketch_id'></div>```
+4. Locate your sketch in the ```source.md``` at the place you want it to be, using the _id: defined in step *2*, e.g., ```<div id='mysketch_id'></div>```
