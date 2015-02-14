@@ -341,10 +341,8 @@ V:
 
 ### Grid illusions
 
-<figure>
-    <img height='375' src='fig/scintillaGrid.png' />
-    <figcaption>Scintillating grid</figcaption>
-</figure>
+<div id='scintillating_id'></div>
+Scintillating grid
 
 V:
 
