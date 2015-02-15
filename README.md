@@ -79,7 +79,7 @@ External markdown and speaker notes, require that presentations run from a local
  $ touch sketches/mysketch.js
  ```
  
-2. Define a canvas _id_ for your sketch (e.g., ```mysketch_id```):
+2. Define a canvas _id_ (e.g., ```mysketch_id```) within your _mysketch.js_ `setup` function:
 
  ```javascript
  function setup() {
