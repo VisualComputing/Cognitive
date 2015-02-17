@@ -1,6 +1,6 @@
 ## Visual Computing Slides -- Cognitive
 
-Part of the *Visual Computing* course given at [National University of Colombia](http://www.disi.unal.edu.co/) by [Jean Pierre Charalambos](http://otrolado.info) and [Andres Colubri](http://codeanticode.wordpress.com/).
+Part of the *Visual Computing* course given at [National University of Colombia](http://www.disi.unal.edu.co/) by [Jean Pierre Charalambos](http://otrolado.info) and [Andres Colubri](http://andrescolubri.net/).
 
 Powered by [reveal](https://github.com/hakimel/reveal.js).
 
@@ -12,6 +12,7 @@ Made possible thanks to...
 
  ```sh
  $ git clone https://github.com/VisualComputing/Cognitive.git
+ $ cd Cognitive
  $ git checkout gh-pages
  ```
 
@@ -36,33 +37,27 @@ External markdown and speaker notes, require that presentations run from a local
 
 2. Install [Grunt](http://gruntjs.com/getting-started#installing-the-cli)
 
-3. Navigate to the presentation folder
-
- ```sh
- $ cd Cognitive
- ```
-
-5. Install dependencies
+3. Install dependencies (you must be already on the presentation folder, otherwise ```$ cd Cognitive```)
 
  ```sh
  $ npm install
  ```
 
-6. Edit the presentation contents using [markdown](http://daringfireball.net/projects/markdown/) in the `source.md`, adding figures to the `fig/` folder and [p5.js skectches](http://p5js.org/) to the `skectches/` folder (detailed instructions below) as needed.
+4. Edit the presentation contents using [markdown](http://daringfireball.net/projects/markdown/) in the `source.md`, adding figures to the `fig/` folder and [p5.js skectches](http://p5js.org/) to the `skectches/` folder (detailed instructions below) as needed.
 
-7. Serve the presentation and monitor source files for changes
+5. Serve the presentation and monitor source files for changes
 
  ```sh
  $ grunt serve
  ```
 
-8. Open <http://localhost:8000> to view your presentation
+6. Open <http://localhost:8000> to view your presentation
 
  You can change the port by using `grunt serve --port 8001`.
 
 <!---
 
-9. Update to upstream
+7. Update to upstream
 
  ```sh
  $ git remote add reveal.js https://github.com/hakimel/reveal.js.git
