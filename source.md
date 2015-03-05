@@ -194,10 +194,6 @@ V:
     <figcaption><a href="http://en.wikipedia.org/wiki/Perspective_(graphical)#Renaissance_:_Mathematical_basis">Perspective study of a vase by Paolo Uccello (Galleria degli Uffizi, Gabinetto dei Disegni)</a></figcaption>
 </figure>
 
-V:
-
-N: add linear perspective types: n-point perspective found here: http://en.wikipedia.org/wiki/Perspective_(graphical)#Types_of_perspective
-
 
 H:
 
@@ -347,15 +343,6 @@ V:
 
 <div id='scintillating_id'></div>
 Scintillating grid
-
-V:
-
-## Testing mouse
-
-### Mouse test
-
-<div id='mouse_id'></div>
-Move mouse
 
 V:
 
