@@ -77,11 +77,13 @@ External markdown and speaker notes, require that presentations run from a local
 2. Define a canvas _id_ (e.g., ```mysketch_id```) within your _mysketch.js_ `setup` function:
 
  ```javascript
- function setup() {
-    var myCanvas = createCanvas(400, 400);
-    myCanvas.parent('mysketch_id');
- }
- ```
+ var sketch1 = function( p ) {
+  p.setup = function() {
+    p.createCanvas(400, 400);
+  };
+};
+
+var myp5_1 = new p5(sketch1, 'mysketch_id');
 
 3. Include your sketch as a script in the ```index.html```, e.g., ```<script src="sketches/mysketch.js"></script>```
 

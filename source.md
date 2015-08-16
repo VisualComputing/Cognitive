@@ -350,7 +350,7 @@ V:
 
 ### Grid illusions
 
-Note that scintillating grid code is:
+Note that the scintillating [grid code](https://github.com/VisualComputing/Cognitive/blob/gh-pages/sketches/scintillating_grid.js) is:
 
 ```js
 function setup() {
@@ -389,6 +389,14 @@ function draw() {
     }
 }
 ```
+
+V:
+
+## Optical Illusions (Physiological)
+
+### Grid illusions
+
+Hacking instructions (setup and run) found [here](https://github.com/VisualComputing/Cognitive/tree/gh-pages) 
 
 V:
 

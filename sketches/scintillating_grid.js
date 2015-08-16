@@ -6,40 +6,42 @@
 // Schtauf, M., Lingelbach, B., Wrist, E.R. (1997)
 // The scintillating grid illusion. Vision Research,
 // 37, 1033-1038.
-// JS port by Jean Pierre Charalambos
+// JS port (p5.js 'instance mode') by Jean Pierre Charalambos
 
-function setup() {
-    var myCanvas = createCanvas(400, 400);
-    myCanvas.parent('scintillating_id');
-    strokeWeight(3);        // medium weight lines 
-    smooth();               // antialias lines
-    stroke(100, 100, 100);  // dark grey colour for lines
-    noLoop();
- 
-}
+var sketch1 = function( p ) {
+    p.setup = function() {
+        p.createCanvas(400, 400);
+        p.strokeWeight(3);        // medium weight lines 
+        p.smooth();               // antialias lines
+        p.noLoop();
+    };
 
-function draw() {
-    background(0);          // black background
-    var step = 25;          // grid spacing
-    
-    //vertical lines
-    for (var x = step; x < width; x = x + step) {
-        line(x, 0, x, height);
-    }
-    
-    //horizontal lines
-    for (var y = step; y < height; y = y + step) {
-        line(0, y, width, y);
-    }
-    
-    // Circles
-    ellipseMode(CENTER);
-    stroke(255, 255, 255);  // white circles
-    for (var i = step; i < width -5; i = i + step) {
-        for (var j = step; j < height -15; j = j + step) {
-            strokeWeight(6); 
-            point(i, j);
-            strokeWeight(3); 
+    p.draw = function() {
+        p.background(0);
+        p.stroke(100, 100, 100);  // dark grey colour for lines
+        
+        var step = 25;        
+        //vertical lines
+        for (var x = step; x < p.width; x = x + step) {
+            p.line(x, 0, x, p.height);
         }
-    }
-}
+    
+        //horizontal lines
+        for (var y = step; y < p.height; y = y + step) {
+            p.line(0, y, p.width, y);
+        }
+    
+        // Circles
+        p.ellipseMode(p.CENTER);
+        p.stroke(255, 255, 255);  // white circles
+        for (var i = step; i < p.width -5; i = i + step) {
+            for (var j = step; j < p.height -15; j = j + step) {
+                p.strokeWeight(6); 
+                p.point(i, j);
+                p.strokeWeight(3); 
+            }
+        }    
+  };
+};
+
+var myp5_1 = new p5(sketch1, 'scintillating_id');
