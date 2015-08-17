@@ -81,11 +81,12 @@ External markdown and speaker notes, require that presentations run from a local
   p.setup = function() {
     p.createCanvas(400, 400);
   };
-};
+ };
 
-var myp5_1 = new p5(sketch1, 'mysketch_id');
+ var myp5_1 = new p5(sketch1, 'mysketch_id');
+ ```
 
-_Note:_ Code syntax is [p5.js instance mode](https://github.com/lmccart/itp-creative-js/wiki/Spring-2014:-Week-5#global-and-instance-mode).
+*Note:* Code syntax is [p5.js instance mode](https://github.com/lmccart/itp-creative-js/wiki/Spring-2014:-Week-5#global-and-instance-mode).
 
 3. Include your sketch as a script in the ```index.html```, e.g., ```<script src="sketches/mysketch.js"></script>```
 
