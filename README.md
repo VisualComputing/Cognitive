@@ -80,18 +80,18 @@ External markdown and speaker notes, require that presentations run from a local
 
     ```javascript
     function setup() {
-      var myCanvas = createCanvas(400, 400);
-      myCanvas.parent('mysketch_id');
+        var myCanvas = createCanvas(400, 400);
+        myCanvas.parent('mysketch_id');
     }
     ```
 
-   * Use ['instance mode'](https://github.com/lmccart/itp-creative-js/wiki/Spring-2014:-Week-5#global-and-instance-mode) if you need to inlcude more than one:
- 
+  * Use ['instance mode'](https://github.com/lmccart/itp-creative-js/wiki/Spring-2014:-Week-5#global-and-instance-mode) if you need to inlcude more than one:
+
     ```javascript
     var sketch1 = function( p ) {
-      p.setup = function() {
-        p.createCanvas(400, 400);
-      };
+        p.setup = function() {
+            p.createCanvas(400, 400);
+        };
     };
     var myp5_1 = new p5(sketch1, 'mysketch_id');
     ```
