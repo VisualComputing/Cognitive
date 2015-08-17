@@ -76,29 +76,26 @@ External markdown and speaker notes, require that presentations run from a local
  
 2. Define a canvas _id_ (e.g., ```mysketch_id```) within your _mysketch.js_ `setup` function:
 
-Use [p5.js 'global mode'](https://github.com/lmccart/itp-creative-js/wiki/Spring-2014:-Week-5#global-and-instance-mode) when including just a single sketch into the presentation.
+  * Use [p5.js 'global mode'](https://github.com/lmccart/itp-creative-js/wiki/Spring-2014:-Week-5#global-and-instance-mode) when including just a single sketch into the presentation.
 
-```javascript
- function setup() {
-    var myCanvas = createCanvas(400, 400);
-    myCanvas.parent('mysketch_id');
- }
- ```
+    ```javascript
+    function setup() {
+      var myCanvas = createCanvas(400, 400);
+      myCanvas.parent('mysketch_id');
+    }
+    ```
 
- or ['instance mode'](https://github.com/lmccart/itp-creative-js/wiki/Spring-2014:-Week-5#global-and-instance-mode) if you need to inlcude more than one.
+   * Use ['instance mode'](https://github.com/lmccart/itp-creative-js/wiki/Spring-2014:-Week-5#global-and-instance-mode) if you need to inlcude more than one:
  
 
- ```javascript
- var sketch1 = function( p ) {
-  p.setup = function() {
-    p.createCanvas(400, 400);
-  };
- };
-
- var myp5_1 = new p5(sketch1, 'mysketch_id');
- ```
-
-*Note:* To enable multiple sketches within a single presentation (```source.md```) code syntax is [p5.js instance mode](https://github.com/lmccart/itp-creative-js/wiki/Spring-2014:-Week-5#global-and-instance-mode).
+    ```javascript
+    var sketch1 = function( p ) {
+      p.setup = function() {
+        p.createCanvas(400, 400);
+      };
+    };
+    var myp5_1 = new p5(sketch1, 'mysketch_id');
+    ```
 
 3. Include your sketch as a script in the ```index.html```, e.g., ```<script src="sketches/mysketch.js"></script>```
 
