@@ -87,7 +87,6 @@ External markdown and speaker notes, require that presentations run from a local
 
    * Use ['instance mode'](https://github.com/lmccart/itp-creative-js/wiki/Spring-2014:-Week-5#global-and-instance-mode) if you need to inlcude more than one:
  
-
     ```javascript
     var sketch1 = function( p ) {
       p.setup = function() {
