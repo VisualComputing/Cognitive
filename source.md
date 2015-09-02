@@ -594,6 +594,18 @@ V:
     <figcaption>Positron imagery</figcaption>
 </figure>
 
+V:
+
+## Optical Illusions (others)
+
+<div id='breathing_id'></div>
+
+V:
+
+## Optical Illusions (others)
+
+<div id='stepping_id'></div>
+
 H:
 
 ## References
