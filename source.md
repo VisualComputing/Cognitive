@@ -3,13 +3,14 @@
 		<p>
 			Set your presentation theme: <br>
 			<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
+                        <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
 			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
 			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
 			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
 			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
 			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
 			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
+			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
 			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
 			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
 			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
@@ -158,7 +159,7 @@ V:
 ### Linear Perspective: Brunelleschi's Experiment
 
 <section>
-	<iframe data-autoplay width="420" height="345" src="http://www.youtube.com/embed/bkNMM8uiMww"></iframe>
+	<iframe data-autoplay width="720" height="480" src="http://www.youtube.com/embed/bkNMM8uiMww"></iframe>
 </section>
 
 V:
@@ -203,7 +204,7 @@ H:
 
 <figure>
     <img height='400' src='fig/parallax.png' />
-    <figcaption>Parallax</figcaption>
+    <figcaption>[Parallax](https://en.wikipedia.org/wiki/Parallax)</figcaption>
 </figure>
 
 V:
@@ -225,8 +226,28 @@ V:
 
 <figure>
     <img height='400' src='fig/lunation.gif' />
-    <figcaption>Kinetic depth effect</figcaption>
+    <figcaption>[Kinetic depth effect](https://en.wikipedia.org/wiki/Kinetic_depth_effect)</figcaption>
 </figure>
+
+V:
+
+## Depth Perception
+
+### Monocular cues
+
+<section>
+	<iframe data-autoplay width="720" height="480" src="https://www.youtube.com/embed/TQB4T6mTXAY"></iframe>
+</section>
+
+V:
+
+## Depth Perception
+
+### Monocular cues
+
+<section>
+	<iframe data-autoplay width="720" height="480" src="https://www.youtube.com/embed/gq70rca1P1I"></iframe>
+</section>
 
 V:
 
@@ -247,7 +268,7 @@ V:
 
 <figure>
     <img height='400' src='fig/nikon.jpg' />
-    <figcaption>Curvilinear perspective</figcaption>
+    <figcaption>[Curvilinear perspective](https://en.wikipedia.org/wiki/Curvilinear_perspective)</figcaption>
 </figure>
 
 V:
@@ -258,7 +279,7 @@ V:
 
 <figure>
     <img height='400' src='fig/fisheye.jpg' />
-    <figcaption>Curvilinear perspective</figcaption>
+    <figcaption>[Curvilinear perspective](https://en.wikipedia.org/wiki/Curvilinear_perspective)</figcaption>
 </figure>
 
 V:
@@ -269,7 +290,7 @@ V:
 
 <figure>
     <img height='400' src='fig/aerial.jpg' />
-    <figcaption> Aerial perspective</figcaption>
+    <figcaption>[Aerial perspective](https://en.wikipedia.org/wiki/Aerial_perspective)</figcaption>
 </figure>
 
 V:
@@ -313,7 +334,7 @@ V:
 
 <figure>
     <img height='400' src='fig/stereo.jpg' />
-    <figcaption> Stereopsis</figcaption>
+    <figcaption>[Stereopsis](https://en.wikipedia.org/wiki/Stereopsis)</figcaption>
 </figure>
 
 H:
