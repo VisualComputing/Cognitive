@@ -349,6 +349,30 @@ V:
 
 ## Optical Illusions (Physiological)
 
+### [Checker shadow](https://en.wikipedia.org/wiki/Checker_shadow_illusion)
+
+<img height="400" src="fig/checker_shadow.png">
+
+V:
+
+## Optical Illusions (Physiological)
+
+### [Checker shadow](https://en.wikipedia.org/wiki/Checker_shadow_illusion)
+
+<img height="400" src="fig/checker_shadow_revealed.png">
+
+V:
+
+## Optical Illusions (Physiological)
+
+### Color gradient
+
+<img height="400" src="fig/gradient.png">
+
+V:
+
+## Optical Illusions (Physiological)
+
 ### Grid illusions
 
 <figure>
