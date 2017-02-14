@@ -93,51 +93,7 @@ V:
 ### Before linear perspective
 
 <figure>
-    <img height='400' src='fig/fresco1.jpg' />
-    <figcaption>Medieval Fresco</figcaption>
-</figure>
-
-V:
-
-## History of Linear Perspective
-
-### Before linear perspective
-
-<figure>
     <img height='400' src='fig/fresco2.jpg' />
-    <figcaption>Medieval Fresco</figcaption>
-</figure>
-
-V:
-
-## History of Linear Perspective
-
-### Before linear perspective
-
-<figure>
-    <img height='400' src='fig/fresco3.jpg' />
-    <figcaption>Medieval Fresco</figcaption>
-</figure>
-
-V:
-
-## History of Linear Perspective
-
-### Before linear perspective
-
-<figure>
-    <img height='400' src='fig/fresco4.jpg' />
-    <figcaption>Medieval Fresco</figcaption>
-</figure>
-
-V:
-
-## History of Linear Perspective
-
-### Before linear perspective
-
-<figure>
-    <img height='400' src='fig/fresco5.jpg' />
     <figcaption>Medieval Fresco</figcaption>
 </figure>
 
@@ -156,10 +112,53 @@ V:
 
 ## History of Linear Perspective
 
+### Before linear perspective
+
+<figure>
+    <img height='400' src='fig/song.jpg' />
+    <figcaption>[Oblique perspective](https://en.wikipedia.org/wiki/Oblique_projection). Song dinasty, 12th century</figcaption>
+</figure>
+
+V:
+
+## History of Linear Perspective
+
+### Before linear perspective
+
+<figure>
+    <img height='400' src='fig/biz.jpg' />
+    <figcaption>[Reverse perspective](https://en.wikipedia.org/wiki/Reverse_perspective). Byzantine perspective</figcaption>
+</figure>
+
+V:
+
+## History of Linear Perspective
+
+### Before linear perspective
+
+<figure>
+    <img height='400' src='fig/rev_persp.png' />
+    <figcaption>[Reverse perspective](https://en.wikipedia.org/wiki/Reverse_perspective). Byzantine perspective</figcaption>
+</figure>
+
+V:
+
+## History of Linear Perspective
+
 ### Linear Perspective: Brunelleschi's Experiment
 
 <section>
-	<iframe data-autoplay width="720" height="480" src="http://www.youtube.com/embed/bkNMM8uiMww"></iframe>
+	<iframe width="720" height="480" src="http://www.youtube.com/embed/bkNMM8uiMww"></iframe>
+</section>
+
+V:
+
+## History of Linear Perspective
+
+### Linear Perspective: Brunelleschi's Experiment
+
+<section>
+	<iframe width="720" height="480" src="http://www.youtube.com/embed/eOksHhQ8TLM"></iframe>
 </section>
 
 V:
@@ -236,7 +235,7 @@ V:
 ### Monocular cues
 
 <section>
-	<iframe data-autoplay width="720" height="480" src="https://www.youtube.com/embed/TQB4T6mTXAY"></iframe>
+	<iframe width="720" height="480" src="https://www.youtube.com/embed/TQB4T6mTXAY"></iframe>
 </section>
 
 V:
@@ -246,7 +245,7 @@ V:
 ### Monocular cues
 
 <section>
-	<iframe data-autoplay width="720" height="480" src="https://www.youtube.com/embed/gq70rca1P1I"></iframe>
+	<iframe width="720" height="480" src="https://www.youtube.com/embed/gq70rca1P1I"></iframe>
 </section>
 
 V:
