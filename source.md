@@ -366,7 +366,7 @@ V:
 
 ### Color gradient
 
-<img height="400" src="fig/gradient.png">
+<div id='color_gradient_id'></div>
 
 V:
 
