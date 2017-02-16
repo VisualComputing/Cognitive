@@ -481,10 +481,8 @@ V:
 
 ### Geometrical-optical illusions
 
-<figure>
-    <img height='400' src='fig/cafe_wall.png' />
-    <figcaption>Cafe-Wall</figcaption>
-</figure>
+<div id='cafe_wall_id'></div>
+Cafe-Wall
 
 V:
 
