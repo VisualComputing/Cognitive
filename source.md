@@ -502,6 +502,14 @@ V:
 ## Optical Illusions (Cognitive)
 
 ### Geometrical-optical illusions
+<div id='cafewallmoving_id'></div>
+Cafe-Wall
+
+V:
+
+## Optical Illusions (Cognitive)
+
+### Geometrical-optical illusions
 
 <figure>
     <img height='400' src='fig/Müller-Lyer_illusion.png' />
