@@ -1,9 +1,9 @@
 var d = 20;
-var x = [50,250];
-var y = [70,170,270];
+var x = [70,420];
+var y = [70,220,370];
 var sketch2 = function( p ) {
     p.setup = function() {
-        var myCanvas = p.createCanvas(320, 360);
+        var myCanvas = p.createCanvas(500, 500);
         myCanvas.parent( 'MullerLyer_id' );
         p.background(255);
     };
