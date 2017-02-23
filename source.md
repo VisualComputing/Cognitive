@@ -503,10 +503,8 @@ V:
 
 ### Geometrical-optical illusions
 
-<figure>
-    <img height='400' src='fig/Müller-Lyer_illusion.png' />
-    <figcaption>Muller-Lyer</figcaption>
-</figure>
+<div id='MullerLyer_id'></div>
+Muller-Lyer
 
 V:
 
