@@ -366,7 +366,7 @@ V:
 
 ### Color gradient
 
-<img height="400" src="fig/gradient.png">
+<div id='color_gradient_id'></div>
 
 V:
 
@@ -481,10 +481,8 @@ V:
 
 ### Geometrical-optical illusions
 
-<figure>
-    <img height='400' src='fig/cafe_wall.png' />
-    <figcaption>Cafe-Wall</figcaption>
-</figure>
+<div id='cafe_wall_id'></div>
+Cafe-Wall
 
 V:
 
