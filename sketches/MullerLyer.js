@@ -1,9 +1,9 @@
-var d = 20;
-var x = [70,420];
-var y = [70,220,370];
+var mld = 20;
+var mlx = [100,280];
+var mly = [100,200,300];
 var sketch2 = function( p ) {
     p.setup = function() {
-        var myCanvas = p.createCanvas(500, 500);
+        var myCanvas = p.createCanvas(400, 400);
         myCanvas.parent( 'MullerLyer_id' );
         p.background(255);
     };
@@ -13,32 +13,32 @@ var sketch2 = function( p ) {
         p.stroke(0);
         p.strokeWeight(4);
         //Horizontal lines
-        for(var i = 0; i < y.length; i++) {
-          p.line( x[0],y[i], x[1],y[i] ); 
+        for(var i = 0; i < mly.length; i++) {
+          p.line( mlx[0], mly[i], mlx[1], mly[i] ); 
         }
         //Top line
-        p.line( x[0], y[0], x[0]+d, y[0]+d );
-        p.line( x[0], y[0], x[0]+d, y[0]-d );
-        p.line( x[1], y[0], x[1]-d, y[0]+d );
-        p.line( x[1], y[0], x[1]-d, y[0]-d );
+        p.line( mlx[0], mly[0], mlx[0]+mld, mly[0]+mld );
+        p.line( mlx[0], mly[0], mlx[0]+mld, mly[0]-mld );
+        p.line( mlx[1], mly[0], mlx[1]-mld, mly[0]+mld );
+        p.line( mlx[1], mly[0], mlx[1]-mld, mly[0]-mld );
       
         //Medium line
-        p.line( x[0], y[1], x[0]-d, y[1]+d );
-        p.line( x[0], y[1], x[0]-d, y[1]-d );
-        p.line( x[1], y[1], x[1]+d, y[1]+d );
-        p.line( x[1], y[1], x[1]+d, y[1]-d );
+        p.line( mlx[0], mly[1], mlx[0]-mld, mly[1]+mld );
+        p.line( mlx[0], mly[1], mlx[0]-mld, mly[1]-mld );
+        p.line( mlx[1], mly[1], mlx[1]+mld, mly[1]+mld );
+        p.line( mlx[1], mly[1], mlx[1]+mld, mly[1]-mld );
           
         //Bottom line
-        p.line( x[0], y[2], x[0]+d, y[2]+d );
-        p.line( x[0], y[2], x[0]+d, y[2]-d );
-        p.line( x[1], y[2], x[1]+d, y[2]+d );
-        p.line( x[1], y[2], x[1]+d, y[2]-d );
+        p.line( mlx[0], mly[2], mlx[0]+mld, mly[2]+mld );
+        p.line( mlx[0], mly[2], mlx[0]+mld, mly[2]-mld );
+        p.line( mlx[1], mly[2], mlx[1]+mld, mly[2]+mld );
+        p.line( mlx[1], mly[2], mlx[1]+mld, mly[2]-mld );
       
         if (p.mouseIsPressed == true) {
           p.stroke(255,0,0);
           p.strokeWeight(2);
-          p.line(x[0], y[0], x[0], y[2]);
-          p.line(x[1], y[0], x[1], y[2]);
+          p.line(mlx[0], mly[0], mlx[0], mly[2]);
+          p.line(mlx[1], mly[0], mlx[1], mly[2]);
         } 
     };
 }
