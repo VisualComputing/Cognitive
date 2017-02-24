@@ -1,20 +1,20 @@
 <section id="themes">
-	<h2>Themes</h2>
-		<p>
-			Set your presentation theme: <br>
-			<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
+    <h2>Themes</h2>
+        <p>
+            Set your presentation theme: <br>
+            <!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
                         <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
-			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
-			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
-			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
-			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
-			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
-			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
-			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
-			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
-			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
-			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
-		</p>
+            <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
+            <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
+            <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
+            <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
+            <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
+            <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
+            <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
+            <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
+            <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
+            <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
+        </p>
 </section>
 
 H:
@@ -148,7 +148,7 @@ V:
 ### Linear Perspective: Brunelleschi's Experiment
 
 <section>
-	<iframe width="720" height="480" src="http://www.youtube.com/embed/bkNMM8uiMww"></iframe>
+    <iframe width="720" height="480" src="http://www.youtube.com/embed/bkNMM8uiMww"></iframe>
 </section>
 
 V:
@@ -158,7 +158,7 @@ V:
 ### Linear Perspective: Brunelleschi's Experiment
 
 <section>
-	<iframe width="720" height="480" src="http://www.youtube.com/embed/eOksHhQ8TLM"></iframe>
+    <iframe width="720" height="480" src="http://www.youtube.com/embed/eOksHhQ8TLM"></iframe>
 </section>
 
 V:
@@ -235,7 +235,7 @@ V:
 ### Monocular cues
 
 <section>
-	<iframe width="720" height="480" src="https://www.youtube.com/embed/TQB4T6mTXAY"></iframe>
+    <iframe width="720" height="480" src="https://www.youtube.com/embed/TQB4T6mTXAY"></iframe>
 </section>
 
 V:
@@ -245,7 +245,7 @@ V:
 ### Monocular cues
 
 <section>
-	<iframe width="720" height="480" src="https://www.youtube.com/embed/gq70rca1P1I"></iframe>
+    <iframe width="720" height="480" src="https://www.youtube.com/embed/gq70rca1P1I"></iframe>
 </section>
 
 V:
@@ -501,10 +501,16 @@ V:
 
 ### Geometrical-optical illusions
 
-<figure>
-    <img height='400' src='fig/Müller-Lyer_illusion.png' />
-    <figcaption>Muller-Lyer</figcaption>
-</figure>
+<div id='Zollner_id'></div>
+Zollner ilussion
+
+V:
+
+## Optical Illusions (Cognitive)
+
+### Geometrical-optical illusions
+<div id='MullerLyer_id'></div>
+Muller-Lyer
 
 V:
 
@@ -575,12 +581,24 @@ V:
 
 V:
 
+## Optical Illusions (Movement)
+
+<div id='MotionBinding_id'></div>
+Motion Binding
+
+V:
+
+## Optical Illusions (Movement)
+
+<div id='Anstis_id'></div>
+Stuart Anstis ilussion
+
+V:
+
 ## Optical Illusions (others)
 
-<figure>
-    <img height='400' src='fig/ebinhaus.png' />
-    <figcaption>Ebbinghaus illusion</figcaption>
-</figure>
+<div id='Ebbinghaus_id'></div>
+Ebbinghaus illusion
 
 V:
 
