@@ -380,6 +380,14 @@ V:
 
 ## Optical Illusions (Physiological)
 
+### Watercolor Illusion
+
+<div id='watercolor_id'></div>
+
+V:
+
+## Optical Illusions (Physiological)
+
 ### Grid illusions
 
 <figure>
