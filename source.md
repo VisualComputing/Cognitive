@@ -372,6 +372,22 @@ V:
 
 ## Optical Illusions (Physiological)
 
+### [White's Illusion](https://en.wikipedia.org/wiki/White's_illusion)
+
+<div id='whites_id'></div>
+
+V:
+
+## Optical Illusions (Physiological)
+
+### [Watercolor Illusion](https://en.wikipedia.org/wiki/Watercolor_illusion)
+
+<div id='watercolor_id'></div>
+
+V:
+
+## Optical Illusions (Physiological)
+
 ### Grid illusions
 
 <figure>
@@ -511,6 +527,15 @@ V:
 ### Geometrical-optical illusions
 <div id='MullerLyer_id'></div>
 Muller-Lyer
+
+V:
+
+## Optical Illusions (Cognitive)
+
+### Geometrical-optical illusions
+
+<div id='poggendorff_id'></div>
+[Poggendorff Illusion](https://en.wikipedia.org/wiki/Poggendorff_illusion)
 
 V:
 
