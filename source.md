@@ -372,7 +372,7 @@ V:
 
 ## Optical Illusions (Physiological)
 
-### White's Illusion
+### [White's Illusion](https://en.wikipedia.org/wiki/White's_illusion)
 
 <div id='whites_id'></div>
 
@@ -380,7 +380,7 @@ V:
 
 ## Optical Illusions (Physiological)
 
-### Watercolor Illusion
+### [Watercolor Illusion](https://en.wikipedia.org/wiki/Watercolor_illusion)
 
 <div id='watercolor_id'></div>
 
@@ -533,8 +533,9 @@ V:
 ## Optical Illusions (Cognitive)
 
 ### Geometrical-optical illusions
+
 <div id='poggendorff_id'></div>
-Poggendorff Illusion
+[Poggendorff Illusion](https://en.wikipedia.org/wiki/Poggendorff_illusion)
 
 V:
 
