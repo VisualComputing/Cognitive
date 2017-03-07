@@ -372,6 +372,22 @@ V:
 
 ## Optical Illusions (Physiological)
 
+### [White's Illusion](https://en.wikipedia.org/wiki/White's_illusion)
+
+<div id='whites_id'></div>
+
+V:
+
+## Optical Illusions (Physiological)
+
+### [Watercolor Illusion](https://en.wikipedia.org/wiki/Watercolor_illusion)
+
+<div id='watercolor_id'></div>
+
+V:
+
+## Optical Illusions (Physiological)
+
 ### Grid illusions
 
 <figure>
@@ -518,6 +534,15 @@ V:
 
 ### Geometrical-optical illusions
 
+<div id='poggendorff_id'></div>
+[Poggendorff Illusion](https://en.wikipedia.org/wiki/Poggendorff_illusion)
+
+V:
+
+## Optical Illusions (Cognitive)
+
+### Geometrical-optical illusions
+
 <figure>
     <img height='400' src='fig/Ponzo_illusion.gif' />
     <figcaption>Ponzo illusion</figcaption>
@@ -592,6 +617,13 @@ V:
 
 <div id='Anstis_id'></div>
 Stuart Anstis ilussion
+
+V:
+
+## Optical Illusions (Movement)
+
+<div id='IllusorySquare_id'></div>
+[Illusory Square](https://www.geek.com/news/10-astonishing-optical-illusion-gifs-1575117/)
 
 V:
 
