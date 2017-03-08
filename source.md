@@ -634,13 +634,11 @@ Ebbinghaus illusion
 
 V:
 
-## Optical Illusions (others)
 
-<figure>
-    <img height='400' src='fig/Lilac-Chaser.gif' />
-    <figcaption><a href="http://en.wikipedia.org/wiki/Lilac_chaser">Lilac Chaser or "Pacman"</a></figcaption>
-</figure>
-
+### Optical Illusions (others)
+###### [Lilac Chaser or "Pacman"](http://en.wikipedia.org/wiki/Lilac_chaser)
+<div id='pacman_id'></div>
+<small>Press "A" to activate</small>
 V:
 
 ## Optical Illusions (others)
