@@ -7,6 +7,7 @@ var sketch6 = function( p ){
 	p.setup = function(){
 		var myCanvas = p.createCanvas(700, 400);
 		p.background(191,191,191);
+		p.frameRate(50);
 	};
 
 	p.draw = function(){
