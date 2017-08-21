@@ -351,8 +351,6 @@ H:
 > Visual illusions (inference process failure) -> visual system assumptions insight
 <!-- .element: class="fragment" data-fragment-index="1"-->
 
-N:
-
 V:
 
 ## Optical Illusions (Physiological)
