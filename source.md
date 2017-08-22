@@ -213,6 +213,17 @@ V:
 ### Monocular cues
 
 <figure>
+    <img height='400' src='fig/parallax.gif' />
+    <figcaption>Motion parallax</figcaption>
+</figure>
+
+V:
+
+## Depth Perception
+
+### Monocular cues
+
+<figure>
     <img height='400' src='fig/depth_cues.png' />
     <figcaption>Depth from motion</figcaption>
 </figure>
