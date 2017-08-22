@@ -348,7 +348,7 @@ H:
  * faces are seen (and recognized) upright
  * closer objects can block the view of more distant objects
 
-> Visual illusions (inference process failure) -> visual system assumptions insight
+> Visual (cognitive) illusions (inference process failure) -> visual system assumptions insight
 <!-- .element: class="fragment" data-fragment-index="1"-->
 
 V:
@@ -510,7 +510,7 @@ V:
 
 ## Optical Illusions (Cognitive)
 
-### Geometrical-optical illusions
+### Geometrical-optical (or distorting) illusions
 
 <div id='cafe_wall_id'></div>
 Cafe-Wall
@@ -519,7 +519,7 @@ V:
 
 ## Optical Illusions (Cognitive)
 
-### Geometrical-optical illusions
+### Geometrical-optical (or distorting) illusions
 
 <figure>
     <img height='400' src='fig/melbourne.jpg' />
@@ -530,7 +530,7 @@ V:
 
 ## Optical Illusions (Cognitive)
 
-### Geometrical-optical illusions
+### Geometrical-optical (or distorting) illusions
 
 <div id='Zollner_id'></div>
 Zollner ilussion
@@ -539,7 +539,7 @@ V:
 
 ## Optical Illusions (Cognitive)
 
-### Geometrical-optical illusions
+### Geometrical-optical (or distorting) illusions
 <div id='MullerLyer_id'></div>
 Muller-Lyer
 
@@ -547,7 +547,7 @@ V:
 
 ## Optical Illusions (Cognitive)
 
-### Geometrical-optical illusions
+### Geometrical-optical (or distorting) illusions
 
 <div id='poggendorff_id'></div>
 [Poggendorff Illusion](https://en.wikipedia.org/wiki/Poggendorff_illusion)
@@ -556,7 +556,7 @@ V:
 
 ## Optical Illusions (Cognitive)
 
-### Geometrical-optical illusions
+### Geometrical-optical (or distorting) illusions
 
 <figure>
     <img height='400' src='fig/Ponzo_illusion.gif' />
