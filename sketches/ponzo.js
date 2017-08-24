@@ -7,14 +7,11 @@
 // "Intorno ad alcune illusioni nel campo delle sensazioni tattili sull'illusione di Aristotele e fenomeni analoghi". Archives Italiennes de Biologie.
 // Sketch made by Neill Giraldo
 
-var col;
 
 var sketch1 = function( p ) {
     p.setup = function() {
         p.createCanvas(550, 400);
         p.smooth();               // antialias lines
-        p.noLoop();
-        col = "#DB7093";
     };
 
     p.draw = function() {
@@ -69,8 +66,8 @@ var sketch1 = function( p ) {
         p.strokeWeight(5);       // medium weight lines 
         
         // red strips
-        if(col == "#FF0000"){
-            p.fill(col);
+        if( p.mouseIsPressed){
+            p.fill("#FF0000");
             p.strokeWeight(0); 
 
             p.rect(198,0,3,400);
@@ -87,15 +84,6 @@ var sketch1 = function( p ) {
 
         p.filter("blur",1);
 
-    };
-    p.mouseClicked = function() {
-        if (col == "#FF0000") {
-            col = "#DB7093";
-        } else {
-            
-            col = "#FF0000";
-        }
-        p.draw();
     };
 };
 
