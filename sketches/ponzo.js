@@ -5,7 +5,7 @@
 // August 23, 2017
 // Ponzo, M.(1911)
 // "Intorno ad alcune illusioni nel campo delle sensazioni tattili sull'illusione di Aristotele e fenomeni analoghi". Archives Italiennes de Biologie.
-// Sketch made by Neill Giraldo
+// Sketch made by Neill Giraldo : http://neillgiraldo.github.io/
 
 
 var sketch1 = function( p ) {
@@ -15,11 +15,11 @@ var sketch1 = function( p ) {
     };
 
     p.draw = function() {
-        
+
+        //style
         p.background(180);
         p.strokeWeight(0);
         
-
         p.fill(0);      // medium weight lines 
 
         // Vertical/diagonal black thick lines
@@ -27,13 +27,10 @@ var sketch1 = function( p ) {
         p.quad(85,400,255,0,260,0,115,400,5);
         p.quad(440,400,280,0,285,0,470,400,5);
 
-
-        
-
+        //style
         p.stroke(0);
         p.strokeWeight(0);
         p.fill(0);
-
 
         // Horizontal Black lines
 
