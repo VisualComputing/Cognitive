@@ -352,7 +352,7 @@ H:
 ## Optical Illusions
 ### [Visual perception](https://en.wikipedia.org/wiki/Visual_perception)
 
-1. (Classical) [Emmision theory](https://en.wikipedia.org/wiki/Visual_perception#Early_studies) vs [Intromission theory](https://en.wikipedia.org/wiki/Visual_perception#Early_studies)
+1. (Classical) [Emission theory](https://en.wikipedia.org/wiki/Visual_perception#Early_studies) vs [Intromission theory](https://en.wikipedia.org/wiki/Visual_perception#Early_studies)
 2. [Unconscious inference](https://en.wikipedia.org/wiki/Unconscious_inference) (Hermann von Helmholtz):
  * light comes from above
  * objects are normally not view from below
