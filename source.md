@@ -570,7 +570,7 @@ V:
 ### Geometrical-optical (or distorting) illusions
 
 <figure>
-    <img height='400' src='fig/Ponzo_illusion.gif' />
+    <div id='ponzo_id'></div>
     <figcaption>Ponzo illusion</figcaption>
 </figure>
 
