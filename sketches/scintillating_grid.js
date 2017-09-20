@@ -8,7 +8,7 @@
 // 37, 1033-1038.
 // JS port (p5.js 'instance mode') by Jean Pierre Charalambos
 
-var sketch1 = function( p ) {
+var sketch = function( p ) {
     p.setup = function() {
         p.createCanvas(400, 400);
         p.strokeWeight(3);        // medium weight lines 
@@ -44,4 +44,4 @@ var sketch1 = function( p ) {
   };
 };
 
-var myp5_1 = new p5(sketch1, 'scintillating_id');
+new p5(sketch, 'scintillating_id');
