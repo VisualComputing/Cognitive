@@ -742,3 +742,6 @@ H:
 * [The origins of perspective](https://www.dartmouth.edu/~matc/math5.geometry/unit11/unit11.html)
 * [Depth perception](http://en.wikipedia.org/wiki/Depth_perception)
 * [Optical Illusion](http://en.wikipedia.org/wiki/Optical_illusion)
+* [Simulation argument](https://www.simulation-argument.com/)
+* [You are a Simulation & Physics Can Prove It: George Smoot](https://www.youtube.com/watch?v=Chfoo9NBEow&t=14s)
+* [Do we see reality as it is? | Donald Hoffman](https://www.youtube.com/watch?v=oYp5XuGYqqY)
