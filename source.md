@@ -30,7 +30,7 @@ H:
  1. History of Linear Perspective <!-- .element: class="fragment" data-fragment-index="1"-->
  2. Depth Perception <!-- .element: class="fragment" data-fragment-index="2"-->
  3. Optical Illusions <!-- .element: class="fragment" data-fragment-index="3"-->
- 
+
 H:
 
 ## History of Linear Perspective
@@ -442,35 +442,35 @@ Note that the scintillating [grid code](https://github.com/VisualComputing/Cogni
 function setup() {
     var myCanvas = createCanvas(400, 400);
     myCanvas.parent('scintillating_id');
-    strokeWeight(3);        // medium weight lines 
+    strokeWeight(3);        // medium weight lines
     smooth();               // antialias lines
     stroke(100, 100, 100);  // dark grey colour for lines
     noLoop();
- 
+
 }
 
 function draw() {
     background(0);          // black background
     var step = 25;          // grid spacing
-    
+
     //vertical lines
     for (var x = step; x < width; x = x + step) {
         line(x, 0, x, height);
     }
-    
+
     //horizontal lines
     for (var y = step; y < height; y = y + step) {
         line(0, y, width, y);
     }
-    
+
     // Circles
     ellipseMode(CENTER);
     stroke(255, 255, 255);  // white circles
     for (var i = step; i < width -5; i = i + step) {
         for (var j = step; j < height -15; j = j + step) {
-            strokeWeight(6); 
+            strokeWeight(6);
             point(i, j);
-            strokeWeight(3); 
+            strokeWeight(3);
         }
     }
 }
@@ -482,7 +482,7 @@ V:
 
 ### Grid illusions
 
-Hacking instructions (setup and run) found [here](https://github.com/VisualComputing/Cognitive/tree/gh-pages) 
+Hacking instructions (setup and run) found [here](https://github.com/VisualComputing/Cognitive/tree/gh-pages)
 
 V:
 
@@ -690,8 +690,26 @@ V:
 ## Optical Illusions (others)
 
 <figure>
-    <img height='400' src='fig/checker.gif'/>
+    <div id='checker_id'></div>
     <figcaption>Checker</figcaption>
+</figure>
+
+V:
+
+## Optical Illusions (others)
+
+<figure>
+    <div id='stroboscopicMotion_id'></div>
+    <figcaption>Stroboscopic Motion</figcaption>
+</figure>
+
+V:
+
+## Optical Illusions (others)
+
+<figure>
+    <div id='rotateSquare_id'></div>
+    <figcaption>Rotate Square Motion</figcaption>
 </figure>
 
 V:
