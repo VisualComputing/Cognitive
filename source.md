@@ -671,6 +671,13 @@ V:
 
 ## Optical Illusions (others)
 
+<div id='reverse_spoke_illusion_id'></div>
+<a target="_blank" href="http://www.michaelbach.de/ot/mot-spokes/index.html">Reverse Spoke Illusion</a>
+
+V:
+
+## Optical Illusions (others)
+
 <figure>
     <img height='400' src='fig/Motion_illusion_in_star_arrangement.png'/>
     <figcaption>Movement illusions</figcaption>
@@ -690,8 +697,8 @@ V:
 ## Optical Illusions (others)
 
 <figure>
-    <img height='400' src='fig/checker.gif'/>
-    <figcaption>Checker</figcaption>
+    <div id='checker_id'></div>
+    <a target="_blank" href="http://www.anopticalillusion.com/2012/11/checkerboard-twisted-cord-illusion/">Checker</a>
 </figure>
 
 V:
