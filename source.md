@@ -368,7 +368,7 @@ V:
 
 ### Mach's band
 
-<img height="400" src="fig/Mach_bands.gif">
+<div id='MachBands_id'></div>
 
 V:
 
@@ -581,7 +581,7 @@ V:
 ### Paradox illusions
 
 <figure>
-    <img height='400' src='fig/Penrose-dreieck.svg.png' />
+    <div id='PenroseTriangle_id'></div>
     <figcaption>Penrose Triangle</figcaption>
 </figure>
 
