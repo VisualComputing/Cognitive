@@ -5,7 +5,7 @@
 // https://en.wikipedia.org/wiki/Lilac_chaser
 // JS port (p5.js 'instance mode') by Sergio Andres Castro
 
-var sketch1 = function( p ) {
+var sketch = function( p ) {
 
   p.setup = function() {
     p.createCanvas(400, 400);
@@ -62,4 +62,4 @@ var sketch1 = function( p ) {
   };
 };
 
-var myp5_1 = new p5(sketch1, 'lilacChaser_id');
+new p5(sketch, 'lilacChaser_id');

@@ -6,7 +6,7 @@
 // https://en.wikipedia.org/wiki/Motion_silencing_illusion
 // JS port (p5.js 'instance mode') by Sergio Andres Castro
 
-var sketch1 = function( p ) {
+var sketch = function( p ) {
   var coord2 = [];
   var colorstart2 = [];
 
@@ -81,4 +81,4 @@ var sketch1 = function( p ) {
   };
 };
 
-var myp5_1 = new p5(sketch1, 'silencing_id');
+new p5(sketch, 'silencing_id');

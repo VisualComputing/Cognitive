@@ -5,7 +5,7 @@
 // http://www.scholarpedia.org/article/Pinna_illusion
 // JS port (p5.js 'instance mode') by Sergio Andres Castro
 
-var sketch1 = function( p ) {
+var sketch = function( p ) {
   p.setup = function() {
     p.createCanvas(400, 400);
   };
@@ -55,4 +55,4 @@ var sketch1 = function( p ) {
   };
 };
 
-var myp5_1 = new p5(sketch1, 'pinna_id');
+new p5(sketch, 'pinna_id');
