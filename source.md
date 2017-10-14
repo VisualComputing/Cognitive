@@ -662,10 +662,8 @@ V:
 
 ## Optical Illusions (others)
 
-<figure>
-    <img height='400' src='fig/Lilac-Chaser.gif' />
-    <figcaption><a href="http://en.wikipedia.org/wiki/Lilac_chaser">Lilac Chaser or "Pacman"</a></figcaption>
-</figure>
+<div id='lilacChaser_id'></div>
+Lilac Chaser Illusion
 
 V:
 
@@ -729,6 +727,28 @@ V:
     <img height='400' src='fig/positron.gif'/>
     <figcaption>Positron imagery</figcaption>
 </figure>
+
+V:
+
+## Optical Illusions (others)
+
+<div id='pinna_id'></div>
+Pinna ilussion
+
+V:
+
+## Optical Illusions (others)
+
+<div id='silencing_id'></div>
+Silencing Illusion
+
+V:
+
+## Optical Illusions (others)
+
+<div id='wagonWheel_id'></div>
+Wagon Wheel Illusion
+
 
 H:
 
