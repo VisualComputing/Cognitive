@@ -1,3 +1,11 @@
+// Silencing
+// Author: Jordan Suchow and George Alvarez
+// January 06 of 2011
+// Motion Silences Awareness of Visual Change
+// http://www.cell.com/current-biology/abstract/S0960-9822(10)01650-7
+// https://en.wikipedia.org/wiki/Motion_silencing_illusion
+// JS port (p5.js 'instance mode') by Sergio Andres Castro
+
 var sketch1 = function( p ) {
   var coord2 = [];
   var colorstart2 = [];

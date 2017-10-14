@@ -1,10 +1,17 @@
+// Lilac Chaser
+// Author: Jeremy Hinton
+// Before 2005
+// A sent message to Michael Bach
+// https://en.wikipedia.org/wiki/Lilac_chaser
+// JS port (p5.js 'instance mode') by Sergio Andres Castro
+
 var sketch1 = function( p ) {
 
   p.setup = function() {
     p.createCanvas(400, 400);
     p.frameRate(7);
   };
-  
+
   function drawBlurCircles(x, y, r) {
     p.push();
     p.push();

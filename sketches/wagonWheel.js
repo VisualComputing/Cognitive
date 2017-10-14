@@ -1,3 +1,11 @@
+// Wagon Wheel (stagecoach-wheel effect or stroboscopic effect)
+// Author: William Albert Hugh Rushton
+// December 23 of 1967
+// Effect of Humming on Vision
+// https://www.nature.com/nature/journal/v216/n5121/abs/2161173a0.html
+// https://en.wikipedia.org/wiki/Wagon-wheel_effect
+// JS port (p5.js 'instance mode') by Sergio Andres Castro
+
 var sketch1 = function( p ) {
   p.setup = function() {
     p.createCanvas(400, 400);

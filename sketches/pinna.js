@@ -1,3 +1,10 @@
+// Pinna Illusion (Spiral Effect)
+// Author: Dr. Biangio Pinna
+// (Pinna & Gregory 2002)
+// Posterior work over original illusion
+// http://www.scholarpedia.org/article/Pinna_illusion
+// JS port (p5.js 'instance mode') by Sergio Andres Castro
+
 var sketch1 = function( p ) {
   p.setup = function() {
     p.createCanvas(400, 400);
