@@ -5,8 +5,6 @@ Part of the *Visual Computing* course given at [National University of Colombia]
 
 Powered by [reveal](https://github.com/hakimel/reveal.js).
 
-Made possible thanks to... 
-
 <!--- a long list of students and links to their pages. To come ;) -->
 
 ## Installation
