@@ -1,5 +1,5 @@
 ## Visual Computing Slides -- Cognitive
-[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 Part of the *Visual Computing* course given at [National University of Colombia](http://www.disi.unal.edu.co/) by [Jean Pierre Charalambos](http://otrolado.info) and [Andres Colubri](http://andrescolubri.net/).
 
@@ -107,6 +107,8 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
+| [<img src="https://avatars2.githubusercontent.com/u/645599?v=4" width="100px;"/><br /><sub><b>Jean Pierre Charalambos</b></sub>](https://github.com/nakednous)<br />[💻](https://github.com/VisualComputing/Cognitive/commits?author=nakednous "Code") [📖](https://github.com/VisualComputing/Cognitive/commits?author=nakednous "Documentation") [🐛](https://github.com/VisualComputing/Cognitive/issues?q=author%3Anakednous "Bug reports") [🎨](#design-nakednous "Design") [🤔](#ideas-nakednous "Ideas, Planning, & Feedback") [💬](#question-nakednous "Answering Questions") [📢](#talk-nakednous "Talks") [⚠️](https://github.com/VisualComputing/Cognitive/commits?author=nakednous "Tests") [🔧](#tool-nakednous "Tools") |
+| :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
