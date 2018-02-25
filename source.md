@@ -665,6 +665,12 @@ V:
 <div id='lilacChaser_id'></div>
 Lilac Chaser Illusion
 
+N:
+Combination of:
+1. Phi phenomenon: is the optical illusion of perceiving continuous motion between separate objects viewed rapidly in succession
+2. Afterimages
+3. Troxler's fading: When a blurry stimulus is presented to a region of the visual field away from where we are fixating, and we keep our eyes still, that stimulus will disappear even though it is still physically presented
+
 V:
 
 ## Optical Illusions (others)
@@ -719,6 +725,10 @@ V:
     <figcaption>Spinning dancer</figcaption>
 </figure>
 
+N:
+
+These results can be explained by a psychological study providing evidence for a viewing-from-above bias that influences observers' perceptions of the silhouette. The results indicated that there was no clockwise bias, but rather viewing-from-above bias
+
 V:
 
 ## Optical Illusions (others)
@@ -749,6 +759,46 @@ V:
 <div id='wagonWheel_id'></div>
 Wagon Wheel Illusion
 
+H:
+
+## Final thoughts
+### Optical illusions in research
+
+<figure>
+    <img height='400' src='fig/visual_masking.png'/>
+    <figcaption>8 & 4 bits quantised images, upper and lower pairs resp.</figcaption>
+</figure>
+
+N:
+
+Visual masking describes the perceptual phenomenon that the presence of one visual
+pattern can aect the visibility of another pattern [FSPG97, KB05].
+
+V:
+
+## Final thoughts
+### Nature of reality
+#### [Do we see reality as it is? | Donald Hoffman](https://www.youtube.com/watch?v=oYp5XuGYqqY)
+
+Evolutionary game simulations between competing organisms some of which perceive reality as it is and some that don't <!-- .element: class="fragment" data-fragment-index="1"-->
+
+> Results: evolution doesn't favor veridical perceptions (they go extinct)
+
+<!-- .element: class="fragment" data-fragment-index="2"-->
+
+> Conclusion: we construct what we see
+
+<!-- .element: class="fragment" data-fragment-index="3"-->
+
+V:
+
+## Final thoughts
+### Nature of reality
+#### [Simulation argument | Nick Bolstrom](https://www.simulation-argument.com/)
+
+<li class="fragment"> The human species is very likely to go extinct before reaching a “posthuman” stage
+<li class="fragment"> Any posthuman civilization is extremely unlikely to run a significant number of simulations of their evolutionary history (or variations thereof)
+<li class="fragment"> we are almost certainly living in a computer simulation.
 
 H:
 
