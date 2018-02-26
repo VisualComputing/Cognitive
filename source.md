@@ -773,7 +773,7 @@ H:
 N:
 
 Visual masking describes the perceptual phenomenon that the presence of one visual
-pattern can aect the visibility of another pattern [FSPG97, KB05].
+pattern can affect the visibility of another pattern [FSPG97, KB05].
 
 V:
 
