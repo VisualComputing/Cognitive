@@ -30,6 +30,7 @@ H:
  1. History of Linear Perspective <!-- .element: class="fragment" data-fragment-index="1"-->
  2. Depth Perception <!-- .element: class="fragment" data-fragment-index="2"-->
  3. Optical Illusions <!-- .element: class="fragment" data-fragment-index="3"-->
+ 4. Final thoughts <!-- .element: class="fragment" data-fragment-index="4"-->
 
 H:
 
