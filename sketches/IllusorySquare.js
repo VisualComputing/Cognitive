@@ -1,13 +1,15 @@
 /*
 explanation: http://www.geek.com/news/10-astonishing-optical-illusion-gifs-1575117/ 
 Implemented by: Fabián Monsalve
+Fix Miguel Ballén, Iván Rojas, Tania Hurtado due new library features illusion
+wasn´t working properly
 */
 
 var outside = 170;
 var inside = 25;
 var shift = true;
 
-var sketch7 = function (p) {
+var illusory_square_sketch = function (p) {
   p.setup = function () {
     p.createCanvas(600, 450);
   };
@@ -22,6 +24,7 @@ var sketch7 = function (p) {
 
     p.fill(150);
     p.noStroke();
+
     // elipses grandes
     p.ellipse((p.width / 2), (p.height / 2) - outside, 100, 100);
     p.ellipse((p.width / 2), (p.height / 2) + outside, 100, 100);
@@ -40,23 +43,23 @@ var sketch7 = function (p) {
     if (shift) {
       if (outside >= 170) {
         shift = false;
-        outside -= 0.9;
-        inside += 0.9;
+        outside -= 7.9;
+        inside += 7.9;
       } else {
-        outside += 0.9;
-        inside -= 0.9;
+        outside += 7.9;
+        inside -= 7.9;
       }
     } else {
       if (outside <= 85) {
         shift = true;
-        outside += 0.9;
-        inside -= 0.9;
+        outside += 7.9;
+        inside -= 7.9;
       } else {
-        outside -= 0.9;
-        inside += 0.9;
+        outside -= 7.9;
+        inside += 7.9;
       }
     }
   }
 }
 
-var myp5_7 = new p5(sketch7, 'IllusorySquare_id');
+var myp5_7 = new p5(illusory_square_sketch, 'IllusorySquare_id');
