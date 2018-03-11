@@ -5,9 +5,10 @@ Fix Miguel Ballén, Iván Rojas, Tania Hurtado due new library features illusion
 wasn´t working properly
 */
 
-var outside = 170;
-var inside = 25;
-var shift = true;
+let outsidePosition = 170;
+let insidePosition = 25;
+let separateEllipses = true;
+
 
 var illusory_square_sketch = function (p) {
   p.setup = function () {
@@ -23,43 +24,44 @@ var illusory_square_sketch = function (p) {
     p.rect(p.width / 2, p.height / 2, 150, 150);
 
     p.fill(150);
-    p.noStroke();
+    p.noStroke();// no border
 
-    // elipses grandes
-    p.ellipse((p.width / 2), (p.height / 2) - outside, 100, 100);
-    p.ellipse((p.width / 2), (p.height / 2) + outside, 100, 100);
-    p.ellipse((p.width / 2) - outside, (p.height / 2), 100, 100);
-    p.ellipse((p.width / 2) + outside, (p.height / 2), 100, 100);
+    evaluateState(outsidePosition, separateEllipses);
 
-    p.fill(255);
-    p.noStroke();
-    // elipses peequeñas
-    p.ellipse((p.width / 2), (p.height / 2) - inside, 30, 30);
-    p.ellipse((p.width / 2), (p.height / 2) + inside, 30, 30);
-    p.ellipse((p.width / 2) - inside, (p.height / 2), 30, 30);
-    p.ellipse((p.width / 2) + inside, (p.height / 2), 30, 30);
+      // elipses grandes
+          p.ellipse((p.width / 2), (p.height / 2) - outsidePosition, 100, 100);
+          p.ellipse((p.width / 2), (p.height / 2) + outsidePosition, 100, 100);
+          p.ellipse((p.width / 2) - outsidePosition, (p.height / 2), 100, 100);
+          p.ellipse((p.width / 2) + outsidePosition, (p.height / 2), 100, 100);
 
+          p.fill(255);
+          p.noStroke();
+          // elipses pequeñas
+          p.ellipse((p.width / 2), (p.height / 2) - insidePosition, 30, 30);
+          p.ellipse((p.width / 2), (p.height / 2) + insidePosition, 30, 30);
+          p.ellipse((p.width / 2) - insidePosition, (p.height / 2), 30, 30);
+          p.ellipse((p.width / 2) + insidePosition, (p.height / 2), 30, 30);
 
-    if (shift) {
-      if (outside >= 170) {
-        shift = false;
-        outside -= 7.9;
-        inside += 7.9;
-      } else {
-        outside += 7.9;
-        inside -= 7.9;
-      }
-    } else {
-      if (outside <= 85) {
-        shift = true;
-        outside += 7.9;
-        inside -= 7.9;
-      } else {
-        outside -= 7.9;
-        inside += 7.9;
-      }
-    }
   }
 }
 
+
+
+function evaluateState(position, animationState){
+
+      if (outsidePosition >= 170) {
+        separateEllipses = false;
+      }
+      if (outsidePosition <= 85) {
+        separateEllipses = true;
+      }
+      if(separateEllipses == true){
+        outsidePosition += 3;
+        insidePosition -= 3;
+      }
+      else{
+        outsidePosition -= 3;
+        insidePosition += 3;
+      }
+}
 var myp5_7 = new p5(illusory_square_sketch, 'IllusorySquare_id');
