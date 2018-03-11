@@ -26,7 +26,7 @@ var illusory_square_sketch = function (p) {
     p.fill(150);
     p.noStroke();// no border
 
-    evaluateState(outsidePosition, separateEllipses);
+    evaluateAndSetVariablesState(outsidePosition, separateEllipses);
 
       // elipses grandes
           p.ellipse((p.width / 2), (p.height / 2) - outsidePosition, 100, 100);
@@ -45,9 +45,7 @@ var illusory_square_sketch = function (p) {
   }
 }
 
-
-
-function evaluateState(position, animationState){
+function evaluateAndSetVariablesState(position, animationState){
 
       if (outsidePosition >= 170) {
         separateEllipses = false;
@@ -56,12 +54,12 @@ function evaluateState(position, animationState){
         separateEllipses = true;
       }
       if(separateEllipses == true){
-        outsidePosition += 3;
-        insidePosition -= 3;
+        outsidePosition += 5;
+        insidePosition -= 5;
       }
       else{
-        outsidePosition -= 3;
-        insidePosition += 3;
+        outsidePosition -= 5;
+        insidePosition += 5;
       }
 }
 var myp5_7 = new p5(illusory_square_sketch, 'IllusorySquare_id');
