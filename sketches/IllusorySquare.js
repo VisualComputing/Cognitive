@@ -1,13 +1,16 @@
 /*
 explanation: http://www.geek.com/news/10-astonishing-optical-illusion-gifs-1575117/ 
 Implemented by: Fabián Monsalve
+Fix Miguel Ballén, Iván Rojas, Tania Hurtado due new library features illusion
+wasn´t working properly
 */
 
-var outside = 170;
-var inside = 25;
-var shift = true;
+let outsidePosition = 170;
+let insidePosition = 25;
+let separateEllipses = true;
 
-var sketch7 = function (p) {
+
+var illusory_square_sketch = function (p) {
   p.setup = function () {
     p.createCanvas(600, 450);
   };
@@ -21,42 +24,42 @@ var sketch7 = function (p) {
     p.rect(p.width / 2, p.height / 2, 150, 150);
 
     p.fill(150);
-    p.noStroke();
-    // elipses grandes
-    p.ellipse((p.width / 2), (p.height / 2) - outside, 100, 100);
-    p.ellipse((p.width / 2), (p.height / 2) + outside, 100, 100);
-    p.ellipse((p.width / 2) - outside, (p.height / 2), 100, 100);
-    p.ellipse((p.width / 2) + outside, (p.height / 2), 100, 100);
+    p.noStroke();// no border
 
-    p.fill(255);
-    p.noStroke();
-    // elipses peequeñas
-    p.ellipse((p.width / 2), (p.height / 2) - inside, 30, 30);
-    p.ellipse((p.width / 2), (p.height / 2) + inside, 30, 30);
-    p.ellipse((p.width / 2) - inside, (p.height / 2), 30, 30);
-    p.ellipse((p.width / 2) + inside, (p.height / 2), 30, 30);
+    evaluateAndSetVariablesState(outsidePosition, separateEllipses);
 
+      // elipses grandes
+          p.ellipse((p.width / 2), (p.height / 2) - outsidePosition, 100, 100);
+          p.ellipse((p.width / 2), (p.height / 2) + outsidePosition, 100, 100);
+          p.ellipse((p.width / 2) - outsidePosition, (p.height / 2), 100, 100);
+          p.ellipse((p.width / 2) + outsidePosition, (p.height / 2), 100, 100);
 
-    if (shift) {
-      if (outside >= 170) {
-        shift = false;
-        outside -= 0.9;
-        inside += 0.9;
-      } else {
-        outside += 0.9;
-        inside -= 0.9;
-      }
-    } else {
-      if (outside <= 85) {
-        shift = true;
-        outside += 0.9;
-        inside -= 0.9;
-      } else {
-        outside -= 0.9;
-        inside += 0.9;
-      }
-    }
+          p.fill(255);
+          p.noStroke();
+          // elipses pequeñas
+          p.ellipse((p.width / 2), (p.height / 2) - insidePosition, 30, 30);
+          p.ellipse((p.width / 2), (p.height / 2) + insidePosition, 30, 30);
+          p.ellipse((p.width / 2) - insidePosition, (p.height / 2), 30, 30);
+          p.ellipse((p.width / 2) + insidePosition, (p.height / 2), 30, 30);
+
   }
 }
 
-var myp5_7 = new p5(sketch7, 'IllusorySquare_id');
+function evaluateAndSetVariablesState(position, animationState){
+
+      if (outsidePosition >= 170) {
+        separateEllipses = false;
+      }
+      if (outsidePosition <= 85) {
+        separateEllipses = true;
+      }
+      if(separateEllipses == true){
+        outsidePosition += 5;
+        insidePosition -= 5;
+      }
+      else{
+        outsidePosition -= 5;
+        insidePosition += 5;
+      }
+}
+var myp5_7 = new p5(illusory_square_sketch, 'IllusorySquare_id');
