@@ -544,6 +544,15 @@ V:
 
 ### Geometrical-optical (or distorting) illusions
 
+<div id='checker_bulge_id'></div>
+Checkerboard Bulge Illusion
+
+V:
+
+## Optical Illusions (Cognitive)
+
+### Geometrical-optical (or distorting) illusions
+
 <div id='Zollner_id'></div>
 Zollner ilussion
 
