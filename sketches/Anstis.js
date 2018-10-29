@@ -28,6 +28,7 @@ var sketch6 = function( p ) {
     function makeBars() {
       p.strokeCap(p.SQUARE);
       p.strokeWeight(15);
+      p.stroke(0);
       for(var i = 0; i < 20; i++) 
         p.line(10+i*30,495-100,10+i*30,5);
     }

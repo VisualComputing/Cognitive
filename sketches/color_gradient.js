@@ -14,8 +14,8 @@ var sketch3 = function(p) {
         p.createCanvas(w,h);
         p.smooth();
         p.noLoop();
-    };
-
+    }; 
+ 
     // adapted from: https://p5js.org/examples/color-linear-gradient.html
     // this function draws a left to right gradient interpolating the values between two colors (c1,c2)
     function setGradient(c1, c2) {
@@ -23,7 +23,7 @@ var sketch3 = function(p) {
         // Left to right gradient
         for (var i = 0; i <=  w; i++) {
             var inter = p.map(i, 0, w, 0, 1);
-            var c = p.lerpColor(c1, c2, inter);
+            var c = p.lerpColor(p.color(c1), p.color(c2), inter);
             p.stroke(c);
             p.line(i, 0, i, h);
         }

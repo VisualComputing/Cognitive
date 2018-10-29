@@ -12,6 +12,7 @@ var sketch1 = function( p ) {
     p.setup = function() {
         p.createCanvas(550, 400);
         p.smooth();               // antialias lines
+        p.noLoop();
     };
 
     p.draw = function() {
@@ -21,11 +22,11 @@ var sketch1 = function( p ) {
         p.strokeWeight(0);
         
         p.fill(0);      // medium weight lines 
-
+ 
         // Vertical/diagonal black thick lines
         // downleft,upleft,upright, downright
-        p.quad(85,400,255,0,260,0,115,400,5);
-        p.quad(440,400,280,0,285,0,470,400,5);
+        p.quad(85,400,255,0,260,0,115,400);
+        p.quad(440,400,280,0,285,0,470,400);
 
         //style
         p.stroke(0);
@@ -61,15 +62,6 @@ var sketch1 = function( p ) {
 
         p.stroke(0);
         p.strokeWeight(5);       // medium weight lines 
-        
-        // red strips
-        if( p.mouseIsPressed){
-            p.fill("#FF0000");
-            p.strokeWeight(0); 
-
-            p.rect(198,0,3,400);
-            p.rect(343,0,3,400);
-        }
 
         // four white lines
         p.stroke(255);
@@ -82,6 +74,19 @@ var sketch1 = function( p ) {
         p.filter("blur",1);
 
     };
+
+    // red strips
+    p.mousePressed = function () {
+        p.fill("#FF0000");
+        p.strokeWeight(0);
+    
+        p.rect(198, 0, 3, 400);
+        p.rect(343, 0, 3, 400);
+    }
+    
+    p.mouseReleased = function () {
+        p.draw();
+    }
 };
 
 var myp5_1 = new p5(sketch1, 'ponzo_id');
