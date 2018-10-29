@@ -16,7 +16,7 @@ var speed = [ (d-delta)/45.0, -(d-delta)/45.0 ];
     p.draw = function() {
       p.background(127);
       p.stroke(0,0,255);
-      p.strokeCap('SQUARE');
+      p.strokeCap(p.SQUARE);
       p.strokeWeight(6);
       makeLinesTypeOne( );
       makeLinesTypeTwo(  );

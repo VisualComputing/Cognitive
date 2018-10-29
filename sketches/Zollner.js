@@ -16,7 +16,7 @@ var sketch4 = function( p ) {
 
     function makeParallelLines( ) {
       p.strokeWeight(15);
-      p.strokeCap('SQUARE');
+    p.strokeCap(p.SQUARE); 
       var aux = 100;
       var x = [100-aux,200-aux];
       var y = [500, 600];
