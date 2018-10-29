@@ -44,4 +44,4 @@ var sketch = function( p ) {
   };
 };
 
-new p5(sketch, 'scintillating_id');
+p5Man.add(new p5(sketch, 'scintillating_id'));

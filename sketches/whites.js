@@ -31,4 +31,4 @@ var sketch = function( p ){
     };
 }
 
-new p5( sketch, 'whites_id' );
+p5Man.add(new p5( sketch, 'whites_id' ));

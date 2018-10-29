@@ -33,4 +33,4 @@ var sketch = function( p ){
     };
 }
 
-var myp5 = new p5( sketch, 'poggendorff_id' );
+p5Man.add(new p5( sketch, 'poggendorff_id' ));

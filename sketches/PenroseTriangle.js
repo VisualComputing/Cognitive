@@ -19,7 +19,7 @@ var sketch = function( p ) {
         color2 = aux;                
     };
 
-    p.draw = function() {                    
+    p.draw = function() {
         p.background(255);          
         p.strokeWeight(3);                
 
@@ -59,4 +59,4 @@ var sketch = function( p ) {
     };
 };
 
-var myp5 = new p5(sketch, 'PenroseTriangle_id');
+p5Man.add(new p5(sketch, 'PenroseTriangle_id'));

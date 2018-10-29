@@ -42,4 +42,4 @@ var sketch = function( p ) {
   };
 };
 
-new p5(sketch, 'wagonWheel_id');
+p5Man.add(new p5(sketch, 'wagonWheel_id'));

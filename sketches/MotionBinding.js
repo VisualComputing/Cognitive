@@ -62,6 +62,5 @@ var sketch5 = function( p ) {
     }
 
 };
-var myp5_2 = new p5( sketch5, 'MotionBinding_id' );
 
-
+p5Man.add(new p5( sketch5, 'MotionBinding_id' ));

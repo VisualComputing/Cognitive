@@ -46,4 +46,4 @@ var sketch = function (p) {
 
 };
 
-new p5(sketch, 'rotateSquare_id');
+p5Man.add(new p5(sketch, 'rotateSquare_id'));

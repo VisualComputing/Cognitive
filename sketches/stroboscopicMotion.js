@@ -34,4 +34,4 @@ var sketch = function (p) {
     };
 };
 
-new p5(sketch, 'stroboscopicMotion_id');
+p5Man.add(new p5(sketch, 'stroboscopicMotion_id'));
