@@ -32,71 +32,92 @@
                                     data-separator-notes="^N:"
                                     data-charset="utf-8">
                         </section>
-                        </div>
-                </div>
+		</div>
+	</div>
 
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.js"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.sound.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.sound.js"></script>
 
-		<script src="sketches/IllusorySquare.js"></script>
-		<script src="sketches/scintillating_grid.js"></script>
-		<script src="sketches/MullerLyer.js"></script>
-		<script src="sketches/Ebbinghaus.js"></script>
-		<script src="sketches/Zollner.js"></script>
-		<script src="sketches/MotionBinding.js"></script>
-		<script src="sketches/Anstis.js"></script>
-		<script src="sketches/cafe_wall.js"></script>
-		<script src="sketches/color_gradient.js"></script>
-		<script src="sketches/whites.js"></script>
-		<script src="sketches/watercolor.js"></script>
-		<script src="sketches/poggendorff.js"></script>
-		<script src="sketches/ponzo.js"></script>
-		<script src="sketches/MachBands.js"></script>
-		<script src="sketches/PenroseTriangle.js"></script>
-		<script src="sketches/checker.js"></script>
-		<script src="sketches/stroboscopicMotion.js"></script>
-		<script src="sketches/rotateSquare.js"></script>
-		<script src="sketches/lilacChaser.js"></script>
-		<script src="sketches/pinna.js"></script>
-		<script src="sketches/silencing.js"></script>
-		<script src="sketches/wagonWheel.js"></script>
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+	<!-- Manager for p5 instances -->
+	<script src="js/p5Manager.js"></script>
+	<script>const p5Man = new p5Manager();</script>
+
+	<!-- p5 sketches -->
+	<script src="sketches/IllusorySquare.js"></script>
+	<script src="sketches/scintillating_grid.js"></script>
+	<script src="sketches/MullerLyer.js"></script>
+	<script src="sketches/Ebbinghaus.js"></script>
+	<script src="sketches/Zollner.js"></script>
+	<script src="sketches/MotionBinding.js"></script>
+	<script src="sketches/Anstis.js"></script>
+	<script src="sketches/cafe_wall.js"></script>
+	<script src="sketches/color_gradient.js"></script>
+	<script src="sketches/whites.js"></script>
+	<script src="sketches/watercolor.js"></script>
+	<script src="sketches/poggendorff.js"></script>
+	<script src="sketches/ponzo.js"></script>
+	<script src="sketches/MachBands.js"></script>
+	<script src="sketches/PenroseTriangle.js"></script>
+	<script src="sketches/checker.js"></script>
+	<script src="sketches/stroboscopicMotion.js"></script>
+	<script src="sketches/rotateSquare.js"></script>
+	<script src="sketches/lilacChaser.js"></script>
+	<script src="sketches/pinna.js"></script>
+	<script src="sketches/silencing.js"></script>
+	<script src="sketches/wagonWheel.js"></script>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
 
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-                                width: "100%",
-                                height: "100%",
-                                margin: 0,
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			width: "100%",
+			height: "100%",
+			margin: 0,
 
-				history: true,
-				center: true,
+			history: true,
+			center: true,
 
-				transition: 'slide', // none/fade/slide/convex/concave/zoom
+			transition: 'slide', // none/fade/slide/convex/concave/zoom
 
-				//added by Pierre
-				math: {
-                                        mathjax: 'http://cdn.mathjax.org/mathjax/latest/MathJax.js',
-                                        config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
-                                },
+			//added by Pierre
+			math: {
+				mathjax: 'http://cdn.mathjax.org/mathjax/latest/MathJax.js',
+				config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
+			},
 
-				// More info https://github.com/hakimel/reveal.js#dependencies
+			// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
 					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true },
-					{ src: 'plugin/notes/notes.js', async: true },
-					//added by Pierre
-					{ src: 'plugin/math/math.js', async: true }
-				]
+				{ src: 'plugin/notes/notes.js', async: true },
+				//added by Pierre
+				{ src: 'plugin/math/math.js', async: true }
+			]
+		});
+
+		window.onload = () => {
+			// Send active canvases
+			p5Man.initialize(getCanvases(Reveal.getCurrentSlide()));
+			Reveal.addEventListener('slidechanged', (e) => {
+				if (e.previousSlide)
+					p5Man.stopCanvases(getCanvases(e.previousSlide));
+				if (e.currentSlide)
+					p5Man.runCanvases(getCanvases(e.currentSlide));
 			});
-		</script>
-	</body>
+		};
+
+		getCanvases = (element) => {
+			return element.getElementsByTagName('canvas');
+		}
+	</script>
+</body>
 </html>
