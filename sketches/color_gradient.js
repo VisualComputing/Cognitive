@@ -1,8 +1,9 @@
 // Author: Jairo Suarez
 // February 16, 2017
-var c1,c2,c3,w,h;
 
 var sketch3 = function(p) {
+    var c1,c2,c3,w,h;
+    
     p.setup = function() {
         w = 440; // canvas width
         h = 320; // canvas height
