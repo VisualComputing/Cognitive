@@ -1,3 +1,5 @@
+var sketch5 = function( p ) {
+  
 var d = 50.0*(1.4142135623730950488016887242097);
 var delta = 15;
 var lx = [400+delta, 500+delta, 300-d+delta, 400-d+delta, 300-d/2.0, 400-d/2.0, 400+d/2.0, 500+d/2.0];
@@ -5,7 +7,6 @@ var ly = [2.0*d-delta, 100+2.0*d-delta, 100+3.0*d-delta, 200+3.0*d-delta, 100+(3
 var limits = [ [400+delta, 400+d-delta ], [300-d+delta, 300-delta] ];
 var speed = [ (d-delta)/45.0, -(d-delta)/45.0 ];
 
-var sketch5 = function( p ) {
     p.setup = function() {
       var myCanvas = p.createCanvas(800, 500);
       myCanvas.parent( 'MotionBinding_id' );
@@ -15,7 +16,7 @@ var sketch5 = function( p ) {
     p.draw = function() {
       p.background(127);
       p.stroke(0,0,255);
-      p.strokeCap('SQUARE');
+      p.strokeCap(p.SQUARE);
       p.strokeWeight(6);
       makeLinesTypeOne( );
       makeLinesTypeTwo(  );
