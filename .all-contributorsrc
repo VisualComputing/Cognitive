@@ -8,6 +8,23 @@
   "commit": true,
   "contributors": [
     {
+      "login": "nakednous",
+      "name": "Jean Pierre Charalambos",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/645599?v=4",
+      "profile": "https://github.com/nakednous",
+      "contributions": [
+        "code",
+        "doc",
+        "bug",
+        "design",
+        "ideas",
+        "question",
+        "talk",
+        "test",
+        "tool"
+      ]
+    },
+    {
       "login": "whispers16",
       "name": "Fabián Monsalve",
       "avatar_url": "https://avatars1.githubusercontent.com/u/10618020?v=4",
@@ -68,23 +85,6 @@
       "profile": "https://www.hackerrank.com/NeillGiraldo",
       "contributions": [
         "code"
-      ]
-    },
-    {
-      "login": "nakednous",
-      "name": "Jean Pierre Charalambos",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/645599?v=4",
-      "profile": "https://github.com/nakednous",
-      "contributions": [
-        "code",
-        "doc",
-        "bug",
-        "design",
-        "ideas",
-        "question",
-        "talk",
-        "test",
-        "tool"
       ]
     },
     {
