@@ -89,4 +89,4 @@ var sketch = function (p) {
 };
 
 
-new p5(sketch, 'checker_id');
+p5Man.add(new p5(sketch, 'checker_id'));

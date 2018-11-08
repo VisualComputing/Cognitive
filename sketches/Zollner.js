@@ -68,6 +68,4 @@ var sketch4 = function( p ) {
 
 }
 
-var myp5_4 = new p5( sketch4, 'Zollner_id' );
-
-
+p5Man.add(new p5( sketch4, 'Zollner_id' ));

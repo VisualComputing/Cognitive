@@ -59,4 +59,4 @@ var sketch7 = function (p) {
   }
 }
 
-var myp5_7 = new p5(sketch7, 'IllusorySquare_id');
+p5Man.add(new p5(sketch7, 'IllusorySquare_id'));

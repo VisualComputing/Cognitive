@@ -34,5 +34,5 @@ var sketch6 = function( p ) {
     }
 
 };
-var myp5_6 = new p5( sketch6, 'Anstis_id' );
 
+p5Man.add(new p5( sketch6, 'Anstis_id' ));

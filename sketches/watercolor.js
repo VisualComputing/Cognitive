@@ -54,4 +54,4 @@ var sketch = function( p ){
 
 }
 
-var myp5 = new p5( sketch, 'watercolor_id' );
+p5Man.add(new p5( sketch, 'watercolor_id' ));

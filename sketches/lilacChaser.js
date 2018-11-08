@@ -62,4 +62,4 @@ var sketch = function( p ) {
   };
 };
 
-new p5(sketch, 'lilacChaser_id');
+p5Man.add(new p5(sketch, 'lilacChaser_id'));

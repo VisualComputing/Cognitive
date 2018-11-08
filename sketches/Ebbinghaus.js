@@ -33,4 +33,5 @@ var sketch3 = function( p ) {
       }
     };
 }
-var myp5_3 = new p5( sketch3, 'Ebbinghaus_id' );
+
+p5Man.add(new p5( sketch3, 'Ebbinghaus_id' ));

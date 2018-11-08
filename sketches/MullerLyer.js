@@ -42,4 +42,5 @@ var sketch2 = function( p ) {
         } 
     };
 }
-var myp5_2 = new p5( sketch2, 'MullerLyer_id' );
+
+p5Man.add(new p5( sketch2, 'MullerLyer_id' ));
