@@ -8,7 +8,7 @@
 
 var sketch = function (p) {
     var angle = 0;
-    var speed = 0.1;
+    var speed = 0.06;
 
     p.setup = function () {
         var myCanvas = p.createCanvas(600, 600);
