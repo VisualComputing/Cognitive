@@ -781,21 +781,30 @@ V:
 ### Nature of reality
 #### [Do we see reality as it is? | Donald Hoffman](https://www.youtube.com/watch?v=oYp5XuGYqqY)
 
-Evolutionary game simulations between competing organisms some of which perceive (part-of) reality as it is and some which perceive only fitness  <!-- .element: class="fragment" data-fragment-index="1"-->
+> Problem: is it that "accurate perceptions are fitter perceptions" the right intepretation of evolutionary theory?
+<!-- .element: class="fragment" data-fragment-index="1"-->
 
-> Results: evolution doesn't favor veridical perceptions (they go extinct)
-
+> Methodology: evolutionary game simulations between competing organisms some of which perceive (part-of) reality as it is and some which see only fitness
 <!-- .element: class="fragment" data-fragment-index="2"-->
 
-> Conclusion: we construct what we see
-
+> Results: evolution doesn't favor veridical perceptions (they go extinct)
 <!-- .element: class="fragment" data-fragment-index="3"-->
+
+> Conclusion: (in contrast) we re-construct what we see, because it's useful (in evolutionary terms)
+<!-- .element: class="fragment" data-fragment-index="4"-->
+
+N:
+
+* Visual illusions: suggest we construct what we see
+* Evolutionary theory deals with: what does natural selection favors?
+* Methodology: uses evolutionary equation. Key notion fitness = f(reality-as-it-is, organism, state & action)
+* Conclusion: "we re-construct what it see": whatever it is. Two theories: 
 
 V:
 
 ## Final thoughts
 ### Nature of reality
-#### [Simulation argument | Nick Bolstrom](https://www.simulation-argument.com/)
+#### [Simulation argument | Nick Bostrom](https://www.simulation-argument.com/)
 
 <li class="fragment"> The human species is very likely to go extinct before reaching a “posthuman” stage
 <li class="fragment"> Any posthuman civilization is extremely unlikely to run a significant number of simulations of their evolutionary history (or variations thereof)
