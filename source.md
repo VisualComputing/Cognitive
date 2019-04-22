@@ -782,15 +782,19 @@ V:
 #### [Do we see reality as it is? | Donald Hoffman](https://www.youtube.com/watch?v=oYp5XuGYqqY)
 
 > Problem: is it that "accurate perceptions are fitter perceptions" the right intepretation of evolutionary theory?
+
 <!-- .element: class="fragment" data-fragment-index="1"-->
 
 > Methodology: evolutionary game simulations between competing organisms some of which perceive (part-of) reality as it is and some which see only fitness
+
 <!-- .element: class="fragment" data-fragment-index="2"-->
 
 > Results: evolution doesn't favor veridical perceptions (they go extinct)
+
 <!-- .element: class="fragment" data-fragment-index="3"-->
 
 > Conclusion: (in contrast) we re-construct what we see, because it's useful (in evolutionary terms)
+
 <!-- .element: class="fragment" data-fragment-index="4"-->
 
 N:
