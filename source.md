@@ -781,7 +781,7 @@ V:
 ### Nature of reality
 #### [Do we see reality as it is? | Donald Hoffman](https://www.youtube.com/watch?v=oYp5XuGYqqY)
 
-Evolutionary game simulations between competing organisms some of which perceive reality as it is and some that don't <!-- .element: class="fragment" data-fragment-index="1"-->
+Evolutionary game simulations between competing organisms some of which perceive (part-of) reality as it is and some which perceive only fitness  <!-- .element: class="fragment" data-fragment-index="1"-->
 
 > Results: evolution doesn't favor veridical perceptions (they go extinct)
 
