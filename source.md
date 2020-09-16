@@ -583,7 +583,7 @@ V:
 
 <figure>
     <div id='PenroseTriangle_id'></div>
-    <figcaption>[Penrose Triangle](https://en.wikipedia.org/wiki/Penrose_triangles)</figcaption>
+    <figcaption>[Penrose Triangle](https://en.wikipedia.org/wiki/Penrose_triangle)</figcaption>
 </figure>
 
 V:
