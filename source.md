@@ -21,7 +21,8 @@ H:
 
 # Visual Computing Cognitive Aspects
 
-Jean Pierre Charalambos
+Jean Pierre Charalambos  
+Universidad Nacional de Colombia
 
 H:
 
