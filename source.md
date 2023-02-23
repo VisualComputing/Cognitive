@@ -150,7 +150,7 @@ V:
 ### Linear Perspective: Brunelleschi's Experiment
 
 <section>
-    <iframe width="720" height="480" src="http://www.youtube.com/embed/bkNMM8uiMww"></iframe>
+    <iframe width="720" height="480" src="https://www.youtube.com/embed/bkNMM8uiMww"></iframe>
 </section>
 
 V:
@@ -160,7 +160,7 @@ V:
 ### Linear Perspective: Brunelleschi's Experiment
 
 <section>
-    <iframe width="720" height="480" src="http://www.youtube.com/embed/eOksHhQ8TLM"></iframe>
+    <iframe width="720" height="480" src="https://www.youtube.com/embed/eOksHhQ8TLM"></iframe>
 </section>
 
 V:
