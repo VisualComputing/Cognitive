@@ -22,7 +22,9 @@ H:
 # Visual Computing Cognitive Aspects
 
 Jean Pierre Charalambos  
-[Universidad Nacional de Colombia](https://unal.edu.co/)
+[Universidad Nacional de Colombia](https://unal.edu.co/)  
+Presentation best seen [online](https://visualcomputing.github.io/Cognitive/)  
+See also the [source code](https://github.com/VisualComputing/Cognitive)
 
 H:
 
